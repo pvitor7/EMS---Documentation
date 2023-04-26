@@ -6,9 +6,13 @@
   "author": "<pvitor7@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "insomnia-documenter --config ./insomnia.json --output ./build"
+    "build": "insomnia-documenter --config ./insomnia.json --output ./build",
+    "start": "serve"
   },
   "dependencies": {
     "insomnia-documenter": "^0.5.5"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
