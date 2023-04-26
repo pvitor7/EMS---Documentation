@@ -5,9 +5,10 @@
   "repository": "git@github.com:pvitor7/EMS---Documentation.git",
   "author": "<pvitor7@hotmail.com>",
   "license": "MIT",
-
   "scripts": {
     "build": "insomnia-documenter --config ./insomnia.json --output ./build"
+  },
+  "dependencies": {
+    "insomnia-documenter": "^0.5.5"
   }
-
 }
